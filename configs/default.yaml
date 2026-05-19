@@ -1,0 +1,42 @@
+seed: 42
+
+dataset:
+  name: null
+  path: null
+  target_column: null
+  test_size: 0.2
+  validation_size: 0.2
+
+environment:
+  max_steps: 10
+  allow_repeated_tools: false
+  action_masking: true
+
+reward:
+  metric: accuracy
+  invalid_action_penalty: -1.0
+  step_penalty: -0.01
+  improvement_scale: 1.0
+
+dqn:
+  hidden_dim: 128
+  learning_rate: 0.001
+  gamma: 0.99
+  epsilon_start: 1.0
+  epsilon_end: 0.05
+  epsilon_decay: 0.995
+  replay_buffer_size: 10000
+  batch_size: 32
+  target_update_interval: 100
+
+training:
+  episodes: 100
+  eval_interval: 10
+  save_interval: 25
+
+output:
+  root_dir: outputs
+  model_dir: outputs/models
+  log_dir: outputs/logs
+  figure_dir: outputs/figures
+  report_dir: outputs/reports

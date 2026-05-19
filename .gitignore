@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Packaging
+build/
+dist/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment and local config
+.env
+.env.*
+*.local
+
+# Logs
+*.log
+logs/
+
+# Machine learning outputs
+outputs/models/*
+outputs/logs/*
+outputs/figures/*
+outputs/reports/*
+!outputs/models/.gitkeep
+!outputs/logs/.gitkeep
+!outputs/figures/.gitkeep
+!outputs/reports/.gitkeep
+
+# Model and data artifacts
+*.pt
+*.pth
+*.ckpt
+*.joblib
+*.pkl
+data/
+datasets/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
