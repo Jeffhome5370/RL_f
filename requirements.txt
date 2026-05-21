@@ -4,5 +4,3 @@ scikit-learn
 torch
 matplotlib
 tqdm
-pyyaml
-pytest

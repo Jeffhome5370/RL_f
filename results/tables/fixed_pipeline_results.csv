@@ -1,0 +1,13 @@
+﻿dataset,pipeline,f1,time,pipeline_length,method
+iris,"['standard_scaler', 'svm']",0.9333333333333332,0.001398324966430664,2,StandardScaler_SVM
+wine,"['standard_scaler', 'svm']",0.9740129935032483,0.0016357898712158203,2,StandardScaler_SVM
+breast_cancer,"['standard_scaler', 'svm']",0.9811507936507937,0.002133607864379883,2,StandardScaler_SVM
+digits,"['standard_scaler', 'svm']",0.9888320294556687,0.033614158630371094,2,StandardScaler_SVM
+iris,"['feature_selection', 'random_forest']",0.9333333333333332,0.12035322189331055,2,FeatureSelection_RF
+wine,"['feature_selection', 'random_forest']",1.0,0.10443496704101562,2,FeatureSelection_RF
+breast_cancer,"['feature_selection', 'random_forest']",0.9531057178116001,0.10979175567626953,2,FeatureSelection_RF
+digits,"['feature_selection', 'random_forest']",0.9753466239591886,0.175736665725708,2,FeatureSelection_RF
+iris,"['standard_scaler', 'knn']",0.9333333333333332,0.0015668869018554688,2,StandardScaler_KNN
+wine,"['standard_scaler', 'knn']",0.974320987654321,0.002825021743774414,2,StandardScaler_KNN
+breast_cancer,"['standard_scaler', 'knn']",0.9521289997480473,0.003883838653564453,2,StandardScaler_KNN
+digits,"['standard_scaler', 'knn']",0.9616454812523679,0.008622169494628906,2,StandardScaler_KNN

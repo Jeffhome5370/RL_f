@@ -1,0 +1,101 @@
+﻿episode,reward,f1,pipeline,invalid_count,pipeline_length
+0,-0.7,,"['standard_scaler', 'random_forest']",3,2
+1,-0.7,,"['minmax_scaler', 'knn']",3,2
+2,-0.55,,"['feature_selection', 'standard_scaler', 'knn']",2,3
+3,-0.8500000000000001,,['random_forest'],4,1
+4,-0.55,,"['pca', 'feature_selection', 'svm']",2,3
+5,-0.7,,"['minmax_scaler', 'svm']",3,2
+6,-0.7,,"['minmax_scaler', 'knn']",3,2
+7,-0.55,,"['minmax_scaler', 'feature_selection', 'random_forest']",2,3
+8,0.5843209876543208,0.974320987654321,"['minmax_scaler', 'knn']",1,2
+9,-0.7,,"['pca', 'svm']",3,2
+10,-1.0,,"['pca', 'feature_selection', 'knn']",2,3
+11,-0.7,,"['feature_selection', 'svm']",3,2
+12,-0.8500000000000001,,['knn'],4,1
+13,0.3684848484848484,0.6884848484848485,['knn'],1,1
+14,-0.8500000000000001,,['random_forest'],4,1
+15,0.4272173913043478,0.9972173913043478,['svm'],2,1
+16,-1.0,,"['standard_scaler', 'pca', 'knn']",2,3
+17,0.6133333333333332,0.9333333333333332,['knn'],1,1
+18,-0.7,,"['standard_scaler', 'random_forest']",3,2
+19,0.6053193580085161,0.9253193580085162,['knn'],1,1
+20,-0.8500000000000001,,['random_forest'],4,1
+21,-0.296608187134503,0.5233918128654971,['svm'],3,1
+22,-0.7,,"['minmax_scaler', 'svm']",3,2
+23,-1.15,,"['minmax_scaler', 'pca']",3,2
+24,-0.7,,"['pca', 'random_forest']",3,2
+25,0.43,1.0,['random_forest'],2,1
+26,-1.0,,"['minmax_scaler', 'feature_selection', 'svm']",2,3
+27,-0.7,,"['feature_selection', 'standard_scaler']",3,2
+28,-0.7,,"['minmax_scaler', 'svm']",3,2
+29,-0.7,,"['feature_selection', 'pca']",3,2
+30,-0.8500000000000001,,['knn'],4,1
+31,0.6053193580085161,0.9253193580085162,['knn'],1,1
+32,-0.7,,"['minmax_scaler', 'knn']",3,2
+33,-1.0,,"['feature_selection', 'pca', 'knn']",2,3
+34,0.9299999999999999,1.0,['random_forest'],0,1
+35,-0.8500000000000001,,['minmax_scaler'],4,1
+36,0.7899999999999999,1.0,"['feature_selection', 'pca', 'knn']",0,3
+37,-0.7,,"['feature_selection', 'knn']",3,2
+38,0.6133333333333332,0.9333333333333332,['knn'],1,1
+39,0.8553193580085161,0.9253193580085162,['knn'],0,1
+40,-0.7,,"['feature_selection', 'random_forest']",3,2
+41,-0.7,,"['standard_scaler', 'pca']",3,2
+42,-0.8500000000000001,,"['pca', 'minmax_scaler', 'feature_selection', 'knn']",1,4
+43,-0.55,,"['feature_selection', 'standard_scaler', 'knn']",2,3
+44,-0.7,,"['feature_selection', 'svm']",3,2
+45,0.9299999999999999,1.0,['random_forest'],0,1
+46,-0.8500000000000001,,['minmax_scaler'],4,1
+47,-0.8500000000000001,,['random_forest'],4,1
+48,0.6331057178116001,0.9531057178116001,['random_forest'],1,1
+49,-0.7,,"['standard_scaler', 'random_forest']",3,2
+50,-0.55,,"['minmax_scaler', 'pca', 'random_forest']",2,3
+51,0.8131057178116001,0.9531057178116001,"['feature_selection', 'random_forest']",0,2
+52,-0.7,,"['standard_scaler', 'knn']",3,2
+53,0.11333333333333317,0.9333333333333332,['svm'],3,1
+54,-0.7,,"['standard_scaler', 'pca']",3,2
+55,-0.7,,"['pca', 'knn']",3,2
+56,-0.7,,"['standard_scaler', 'svm']",3,2
+57,-0.8500000000000001,,['knn'],4,1
+58,-0.55,,"['standard_scaler', 'pca', 'svm']",2,3
+59,0.4736933942667219,0.933693394266722,"['pca', 'minmax_scaler', 'knn']",1,3
+60,-0.7,,"['feature_selection', 'svm']",3,2
+61,-0.55,,"['standard_scaler', 'feature_selection', 'knn']",2,3
+62,-0.8500000000000001,,['random_forest'],4,1
+63,-0.8500000000000001,,['random_forest'],4,1
+64,-0.8500000000000001,,['svm'],4,1
+65,-0.8500000000000001,,['random_forest'],4,1
+66,-0.8500000000000001,,['knn'],4,1
+67,-0.8500000000000001,,['random_forest'],4,1
+68,-0.7,,"['feature_selection', 'knn']",3,2
+69,-0.7,,"['standard_scaler', 'random_forest']",3,2
+70,-0.8500000000000001,,['feature_selection'],4,1
+71,-0.7,,"['minmax_scaler', 'random_forest']",3,2
+72,-0.55,,"['feature_selection', 'pca', 'standard_scaler']",2,3
+73,-0.7,,"['minmax_scaler', 'knn']",3,2
+74,-0.8500000000000001,,['knn'],4,1
+75,0.36333333333333323,0.9333333333333332,['knn'],2,1
+76,-0.55,,"['feature_selection', 'minmax_scaler', 'pca']",2,3
+77,0.6053193580085161,0.9253193580085162,['knn'],1,1
+78,-0.8500000000000001,,['random_forest'],4,1
+79,0.8353466239591886,0.9753466239591886,"['feature_selection', 'random_forest']",0,2
+80,-0.8500000000000001,,['random_forest'],4,1
+81,-0.55,,"['pca', 'feature_selection', 'knn']",2,3
+82,0.33432098765432094,0.974320987654321,"['minmax_scaler', 'knn']",2,2
+83,-0.55,,"['standard_scaler', 'feature_selection', 'knn']",2,3
+84,-0.7,,"['standard_scaler', 'svm']",3,2
+85,-0.7,,"['feature_selection', 'random_forest']",3,2
+86,-0.7,,"['standard_scaler', 'knn']",3,2
+87,-0.55,,"['pca', 'standard_scaler', 'knn']",2,3
+88,-1.0,,"['pca', 'standard_scaler', 'random_forest']",2,3
+89,0.6772173913043478,0.9972173913043478,['svm'],1,1
+90,-0.8500000000000001,,['svm'],4,1
+91,-0.7,,"['standard_scaler', 'svm']",3,2
+92,-0.7,,"['standard_scaler', 'feature_selection']",3,2
+93,-0.55,,"['feature_selection', 'pca', 'minmax_scaler']",2,3
+94,-0.8500000000000001,,['random_forest'],4,1
+95,-0.7,,"['minmax_scaler', 'random_forest']",3,2
+96,-0.55,,"['minmax_scaler', 'feature_selection', 'random_forest']",2,3
+97,-0.8500000000000001,,['svm'],4,1
+98,0.8633333333333332,0.9333333333333332,['knn'],0,1
+99,0.6133333333333332,0.9333333333333332,['knn'],1,1

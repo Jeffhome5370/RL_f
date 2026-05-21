@@ -1,0 +1,5 @@
+﻿dataset,best_f1,best_pipeline,time,num_candidates
+iris,1.0,"['pca', 'svm']",0.0012173652648925781,27
+wine,1.0,['random_forest'],0.10507392883300781,27
+breast_cancer,0.9811507936507937,"['standard_scaler', 'svm']",0.003976345062255859,27
+digits,0.9972173913043478,['svm'],0.025429248809814453,27

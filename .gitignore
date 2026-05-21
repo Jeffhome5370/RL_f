@@ -15,6 +15,12 @@ htmlcov/
 venv/
 env/
 ENV/
+.uv-cache/
+.uv-python/
+!env/
+env/*
+!env/__init__.py
+!env/tool_selection_env.py
 
 # Packaging
 build/
@@ -51,6 +57,11 @@ outputs/reports/*
 *.pkl
 data/
 datasets/
+!data/
+data/*
+!data/__init__.py
+!data/dataset_manager.py
+!data/data_profiler.py
 
 # OS and editor files
 .DS_Store
