@@ -1,0 +1,14 @@
+name: dqn-tool-agent
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.10
+  - numpy
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - tqdm
+  - pytorch
+  - pytorch-cuda=12.1
